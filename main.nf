@@ -32,7 +32,7 @@ nextflow.enable.dsl = 2
  */
 
 params.reads = "$baseDir/data/test.120k.fastq.gz"
-params.transcriptome = "$baseDir/data/dm6.ncbiRefSeq.transcript_for_kallisto_named.fa"
+params.transcriptome = "http://germarium.ddns.net/nextflow/dm6.test.truncated.transcripts.fa"
 params.outdir = "results"
 params.multiqc = "$baseDir/multiqc"
 
